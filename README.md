@@ -1,4 +1,4 @@
-About jsbsim
+About JSBSim
 ============
 
 Home: https://github.com/JSBSim-Team/jsbsim
@@ -141,7 +141,7 @@ Current release info
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-jsbsim-green.svg)](https://anaconda.org/conda-forge/jsbsim) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jsbsim.svg)](https://anaconda.org/conda-forge/jsbsim) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jsbsim.svg)](https://anaconda.org/conda-forge/jsbsim) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jsbsim.svg)](https://anaconda.org/conda-forge/jsbsim) |
 
-Installing jsbsim
+Installing JSBSim
 =================
 
 Installing `jsbsim` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
@@ -204,7 +204,7 @@ Terminology
 Updating jsbsim-feedstock
 =========================
 
-If you would like to improve the jsbsim recipe or build a new
+If you would like to improve the JSBSim recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
