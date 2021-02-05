@@ -1,4 +1,4 @@
-About JSBSim
+About jsbsim
 ============
 
 Home: https://github.com/JSBSim-Team/jsbsim
@@ -71,6 +71,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11759&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jsbsim-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11759&branchName=master">
@@ -106,6 +113,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11759&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jsbsim-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11759&branchName=master">
@@ -126,6 +140,13 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jsbsim-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
+            </tr><tr>
+              <td>win_64_python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11759&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jsbsim-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9.____cpython" alt="variant">
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -141,7 +162,7 @@ Current release info
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-jsbsim-green.svg)](https://anaconda.org/conda-forge/jsbsim) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jsbsim.svg)](https://anaconda.org/conda-forge/jsbsim) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jsbsim.svg)](https://anaconda.org/conda-forge/jsbsim) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jsbsim.svg)](https://anaconda.org/conda-forge/jsbsim) |
 
-Installing JSBSim
+Installing jsbsim
 =================
 
 Installing `jsbsim` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
@@ -204,7 +225,7 @@ Terminology
 Updating jsbsim-feedstock
 =========================
 
-If you would like to improve the JSBSim recipe or build a new
+If you would like to improve the jsbsim recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
