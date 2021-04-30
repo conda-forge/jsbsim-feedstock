@@ -1,5 +1,5 @@
 {% set name = "JSBSim" %}
-{% set version = "1.1.5" %}
+{% set version = "1.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9a5f7da9ee8a2374d8e9d9141492b5dd97c86d1bab7521dc4c62b727becb2f7a
+  sha256: c3613e5c20a73ed28c87aa3aeed41d59b7e5eb5dcbe1097ba44bfb5683e2b42a
 
 build:
-  number: 1
-  skip: True  # [py<36]
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  skip: true  # [py<36]
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -38,7 +38,7 @@ about:
   license: LGPL-2.1-or-later
   license_family: LGPL
   license_file: LICENSE.txt
-  summary: 'An open source flight dynamics & control software library'
+  summary: An open source flight dynamics & control software library
   description: |
     JSBSim is a multi-platform, general purpose object-oriented Flight Dynamics
     Model (FDM) written in C++. The FDM is essentially the physics & math model
