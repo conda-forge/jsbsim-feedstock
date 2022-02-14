@@ -21,12 +21,12 @@ requirements:
   host:
     - python
     - pip
-    - setuptools
+    - setuptools <=59.9
     - cython
   run:
     - python
     - numpy
-    - setuptools <=59.9
+    - setuptools
 
 test:
   imports:
