@@ -26,7 +26,7 @@ requirements:
   run:
     - python
     - numpy
-    - setuptools <= 59.9
+    - setuptools <=59.9
 
 test:
   imports:
