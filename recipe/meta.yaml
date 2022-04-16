@@ -21,7 +21,7 @@ requirements:
   host:
     - python
     - pip
-    - setuptools <=59.8
+    - setuptools <=59.5
     - cython
   run:
     - python
