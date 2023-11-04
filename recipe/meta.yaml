@@ -1,5 +1,5 @@
 {% set name = "JSBSim" %}
-{% set version = "1.1.13" %}
+{% set version = "1.1.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4b219f3189a929f4c27f9c216a36665ec86e6e636441c59b5f14cc362af822e2
+  sha256: 4406dbf359961d70cece51b1a9a0f27c0abe38c885834eb6715aab0c71127a89
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<36]
   script: {{ PYTHON }} -m pip install . -vv
 
