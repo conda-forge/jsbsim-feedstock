@@ -11,7 +11,6 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<36]
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -19,12 +18,13 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib('c') }}
     - {{ compiler('cxx') }}
+    - cmake >=3.18
+    - ninja
   host:
     - python
     - pip
     - scikit-build-core
     - cython
-    - cmake >=3.18
   run:
     - python
     - numpy >=1.20
