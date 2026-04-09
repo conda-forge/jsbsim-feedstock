@@ -24,10 +24,10 @@ requirements:
     - pip
     - scikit-build-core
     - cython
-    - cmake >= 3.18
+    - cmake >=3.18
   run:
     - python
-    - numpy >= 1.20
+    - numpy >=1.20
 
 test:
   imports:
