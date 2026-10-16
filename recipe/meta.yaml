@@ -1,5 +1,5 @@
 {% set name = "JSBSim" %}
-{% set version = "1.3.2" %}
+{% set version = "1.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name|lower }}-{{ version }}.tar.gz
-  sha256: 7857fec6a154e319fbe93a56bd817ff40cffbedff1c1fe99447589a1a8eacfff
+  sha256: 7b2b1f5dc3728f9c5fd98dc95da23c0b12fc31306142373f6d612ebf1a49f899
 
 build:
   number: 0
